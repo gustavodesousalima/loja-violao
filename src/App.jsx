@@ -14,7 +14,7 @@ function App() {
   const [count, setCount] = useState(0);
 
   return (
-    <Router>
+    <Router basename='/loja-violao'>
       <Header className={Styled.header} />
       <Routes>
         <Route path="/" element={<Home />} />
